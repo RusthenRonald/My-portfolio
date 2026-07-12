@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Fonts ── */
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body:    "Inter", sans-serif;
+  --font-mono:    "Space Mono", monospace;
+
+  /* ── Dark theme (default) ── */
+  --color-bg:        #0A0A0B;
+  --color-surface:   #141417;
+  --color-surface2:  #1B1B1F;
+  --color-text:      #F3F3F1;
+  --color-muted:     #9A9A98;
+  --color-line:      rgba(255,255,255,0.10);
+  --color-accent:    #C6FF3A;
+  --color-on-accent: #0A0A0B;
+  --color-magenta:   #FF3D9A;
+}
+
+/* ── Light theme overrides ── */
+.light {
+  --color-bg:        #F4F5F0;
+  --color-surface:   #FFFFFF;
+  --color-surface2:  #EBEDE4;
+  --color-text:      #15161A;
+  --color-muted:     #5C625A;
+  --color-line:      rgba(20,22,26,0.13);
+  --color-accent:    #B4EB1F;
+  --color-on-accent: #15161A;
+  --color-magenta:   #E11D7A;
+}
+
+/* ── Base ── */
+@layer base {
+  *  { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.4s, color 0.4s;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+    html { scroll-behavior: auto; }
+  }
+}

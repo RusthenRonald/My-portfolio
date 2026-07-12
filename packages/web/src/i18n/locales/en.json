@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "about":    "About",
+    "skills":   "Skills",
+    "exp":      "Experience",
+    "projects": "Projects",
+    "certs":    "Certificates",
+    "resume":   "curriculum"
+  }
+}
