@@ -19,6 +19,18 @@
     "stats": {
       "years":    "Years experience",
       "technologies": "Technologies"
+  },
+   "about": {
+    "eyebrow": "About me",
+    "title":   "A quick introduction",
+    "card": {
+      "name":     "Name",
+      "role":     "Role",
+      "location": "Location",
+      "langs":    "Languages",
+      "status":   "Status",
+      "available":"Open to work"
+    }
   }
 
 }

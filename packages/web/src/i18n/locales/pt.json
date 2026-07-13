@@ -19,5 +19,17 @@
     "stats": {
         "years":    "Anos de experiência",
         "technologies": "Tecnologias"
+    },
+     "about": {
+     "eyebrow": "Sobre mim",
+     "title":   "Uma breve apresentação",
+        "card": {
+        "name":     "Nome",
+        "role":     "Função",
+        "location": "Local",
+        "langs":    "Idiomas",
+        "status":   "Status",
+        "available":"Disponível"
         }
+  }
 }
