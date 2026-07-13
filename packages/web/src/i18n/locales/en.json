@@ -74,6 +74,24 @@
     "title":   "Want the full story?",
     "text":    "A quick, focused overview of my experience, skills and education — perfect for a first look before we talk.",
     "button":  "Download résumé (PDF)"
+  },
+    "contact": {
+    "eyebrow":      "Contact",
+    "title":        "Let's talk",
+    "text":         "Have a project in mind or just want to connect? Fill in the form and I'll get back to you shortly.",
+    "name":         "Name",
+    "email":        "Email",
+    "message":      "Message",
+    "namePh":       "Your name",
+    "emailPh":      "rusthen.ronald9@gmail.com",
+    "messagePh":    "Write your message here...",
+    "send":         "Send message",
+    "sending":      "Sending...",
+    "success":      "Message sent! I'll be in touch soon.",
+    "error":        "Something went wrong. Please try again.",
+    "required":     "Required field",
+    "invalidEmail": "Invalid email",
+    "minMessage":   "Minimum 20 characters"
   }
 
 }

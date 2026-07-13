@@ -7,6 +7,7 @@ import Projects from './features/projects/Projects'
 import Certificates from './features/certificates/Certificates'
 import Footer from './components/layout/Footer'
 import CV from './features/hero/CV'
+import Contact from './features/contact/Contact'
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Certificates />
       <CV />
+      <Contact />
     </main>
     <Footer />
     </>

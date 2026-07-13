@@ -74,6 +74,24 @@
         "title":   "Quer a história completa?",
         "text":    "Um panorama rápido e direto da minha experiência, habilidades e formação — ideal para uma primeira impressão antes de conversarmos.",
         "button":  "Baixar currículo (PDF)"
+    },
+    "contact":{
+        "eyebrow": "Contato",
+        "title":   "Vamos conversar?",
+        "text":    "Tem um projeto em mente ou quer trocar uma ideia? Preencha o formulário e eu retorno em breve.",
+        "name":         "Nome",
+        "email":        "rusthenronald9@gmail.com",
+        "message":      "Mensagem",
+        "namePh":       "Seu nome",
+        "emailPh":      "seu@email.com",
+        "messagePh":    "Escreva sua mensagem aqui...",
+        "send":         "Enviar mensagem",
+        "sending":      "Enviando...",
+        "success":      "Mensagem enviada! Retorno em breve.",
+        "error":        "Algo deu errado. Tente novamente.",
+        "required":     "Campo obrigatório",
+        "invalidEmail": "E-mail inválido",
+        "minMessage":   "Mínimo 20 caracteres"
     }
     
 }
