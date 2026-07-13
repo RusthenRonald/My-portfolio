@@ -10,7 +10,6 @@ import {
   SiJavascript,
   SiMongodb,
   SiMysql,
-  SiNodedotjs,
   SiPython,
   SiReact,
   SiShopify,
