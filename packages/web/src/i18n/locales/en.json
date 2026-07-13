@@ -68,6 +68,12 @@
     "title":  "Your next software developer",
     "rights": "All rights reserved.",
     "top":    "Back to top"
+  },
+  "cv": {
+    "eyebrow": "Curriculum",
+    "title":   "Want the full story?",
+    "text":    "A quick, focused overview of my experience, skills and education — perfect for a first look before we talk.",
+    "button":  "Download résumé (PDF)"
   }
 
 }
