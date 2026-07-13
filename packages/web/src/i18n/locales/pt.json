@@ -55,6 +55,14 @@
         "close":       "Fechar",
         "moreSoon":    "Mais projetos em breve",
         "coldStart":   "Servidor gratuito, pode levar até 1 min para acordar"
+    },
+    "certs": {
+        "eyebrow":    "Formação",
+        "title":      "Certificados & cursos",
+        "credential": "Ver credencial",
+        "learnMore":  "Saiba mais",
+        "close":      "Fechar",
+        "noDescription": "Nenhuma descrição adicionada ainda."
     }
     
 }
