@@ -5,6 +5,7 @@ import Skills from './features/skills/Skills'
 import Experience from './features/experience/Experience'
 import Projects from './features/projects/Projects'
 import Certificates from './features/certificates/Certificates'
+import Footer from './components/layout/Footer'
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Projects />
       <Certificates />
+      <Footer />
     </main>
     </>
   )

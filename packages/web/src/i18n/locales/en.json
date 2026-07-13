@@ -63,6 +63,11 @@
     "learnMore":  "Learn more",
     "close":      "Close",
     "noDescription": "No description added yet."
+  },
+  "footer": {
+    "title":  "Your next software developer",
+    "rights": "All rights reserved.",
+    "top":    "Back to top"
   }
 
 }

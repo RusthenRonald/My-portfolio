@@ -33,8 +33,9 @@ export default function ProjectCard({ project, lang, onLearnMore }: ProjectCardP
 
   return (
     <article
+      onClick={() => onLearnMore(project)}
       className="group flex flex-col rounded-2xl border border-[var(--color-line)]
-        bg-[var(--color-surface)] overflow-hidden
+        bg-[var(--color-surface)] overflow-hidden cursor-pointer
         transition-all duration-300
         hover:-translate-y-2 hover:border-[var(--color-accent)]"
       style={{ boxShadow: '0 1px 2px rgba(0,0,0,0.06)' }}
@@ -108,6 +109,7 @@ export default function ProjectCard({ project, lang, onLearnMore }: ProjectCardP
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center gap-1.5
               font-semibold text-sm text-[var(--color-accent)]
               transition-gap duration-200
@@ -121,6 +123,7 @@ export default function ProjectCard({ project, lang, onLearnMore }: ProjectCardP
             href={project.repoLink}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center gap-1.5
               font-semibold text-sm text-[var(--color-muted)]
               transition-colors duration-200
@@ -131,7 +134,10 @@ export default function ProjectCard({ project, lang, onLearnMore }: ProjectCardP
           </a>
 
           <button
-            onClick={() => onLearnMore(project)}
+            onClick={(e) => {
+              e.stopPropagation()
+              onLearnMore(project)
+            }}
             className="inline-flex items-center gap-1.5 ml-auto
               font-semibold text-sm text-[var(--color-muted)]
               transition-colors duration-200 cursor-pointer
