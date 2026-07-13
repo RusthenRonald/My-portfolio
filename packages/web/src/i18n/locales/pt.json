@@ -40,6 +40,11 @@
         "db":      "Banco de dados",
         "tools":   "Ferramentas",
         "architecture": "Arquitetura"
+    },
+    "experience": {
+        "eyebrow": "Trajetória",
+        "title":   "Experiência profissional",
+        "present": "atual"
     }
     
 }

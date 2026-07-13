@@ -40,6 +40,11 @@
     "db":      "Database",
     "tools":   "Tools",
     "architecture": "Architecture"
+  },
+  "experience": {
+    "eyebrow": "Journey",
+    "title":   "Professional experience",
+    "present": "present"
   }
 
 }
