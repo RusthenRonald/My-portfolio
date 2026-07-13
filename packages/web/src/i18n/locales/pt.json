@@ -45,6 +45,16 @@
         "eyebrow": "Trajetória",
         "title":   "Experiência profissional",
         "present": "atual"
+    },
+    "projects": {
+        "eyebrow":  "Trabalhos",
+        "title":    "Projetos por tecnologia",
+        "viewProject": "Ver projeto",
+        "viewRepo":    "Ver repositório",
+        "learnMore":   "Saiba mais",
+        "close":       "Fechar",
+        "moreSoon":    "Mais projetos em breve",
+        "coldStart":   "Servidor gratuito, pode levar até 1 min para acordar"
     }
     
 }

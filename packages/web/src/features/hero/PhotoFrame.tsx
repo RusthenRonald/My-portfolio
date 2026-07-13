@@ -6,20 +6,17 @@ export default function PhotoFrame() {
     return (
         <div className="flex" justify-center color="blue">
             <div className="relative w-[280px] h-[340px] md:w-[300px] md:h-[360px]">
-                {/* glow ring */}
                 <div
                 className="absolute inset-0 rounded-3xl"
                 style={{
                     boxShadow: '0 0 0 2px var(--color-accent), 0 0 0 8px color-mix(in srgb, var(--color-accent) 15%, transparent)',
                 }}
                 />
-
-                {/* frame */}
                 <div className="relative w-full h-full rounded-3xl overflow-hidden border-2 border-[var(--color-accent)]"
                 style={{ boxShadow: '0 20px 50px -20px rgba(0,0,0,0.7)' }}
                 >
                 
-                    <img src="/rusthen_professional_photo.png" alt="Rusthen Ronald" className="w-full h-full object-cover" />
+                    <img src="/rusthen_professional_photo_ofc.png" alt="Rusthen Ronald" className="w-full h-full object-cover" />
                 
                 <div
                     className="w-full h-full flex flex-col items-center justify-center gap-3
