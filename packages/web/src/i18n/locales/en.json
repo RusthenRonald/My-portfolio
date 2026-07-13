@@ -31,6 +31,15 @@
       "status":   "Status",
       "available":"Open to work"
     }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title":   "My stack, by area",
+    "front":   "Front-end",
+    "back":    "Back-end",
+    "db":      "Database",
+    "tools":   "Tools",
+    "architecture": "Architecture"
   }
 
 }

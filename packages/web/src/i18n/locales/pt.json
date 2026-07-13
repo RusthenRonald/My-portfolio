@@ -31,5 +31,15 @@
         "status":   "Status",
         "available":"Disponível"
         }
-  }
+    },
+    "skills": {
+        "eyebrow": "Habilidades",
+        "title":   "Minha stack, por área",
+        "front":   "Front-end",
+        "back":    "Back-end",
+        "db":      "Banco de dados",
+        "tools":   "Ferramentas",
+        "architecture": "Arquitetura"
+    }
+    
 }
