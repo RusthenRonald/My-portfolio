@@ -63,6 +63,11 @@
         "learnMore":  "Saiba mais",
         "close":      "Fechar",
         "noDescription": "Nenhuma descrição adicionada ainda."
+    },
+    "footer": {
+    "title":  "Seu próximo desenvolvedor de software",
+    "rights": "Todos os direitos reservados.",
+    "top":    "Voltar ao topo"
     }
     
 }

@@ -13,7 +13,8 @@ export default function CertCard({ cert, lang, onLearnMore }: CertCardProps) {
 
   return (
     <div
-      className="group flex flex-col gap-3 p-6 rounded-2xl
+      onClick={() => onLearnMore(cert)}
+      className="group flex flex-col gap-3 p-6 rounded-2xl cursor-pointer
         border border-[var(--color-line)] bg-[var(--color-surface)]
         transition-all duration-300
         hover:-translate-y-1 hover:border-[var(--color-accent)]"
@@ -40,6 +41,7 @@ export default function CertCard({ cert, lang, onLearnMore }: CertCardProps) {
           href={cert.link}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
           className="inline-flex items-center gap-1.5
             font-semibold text-sm text-[var(--color-accent)]
             transition-all duration-200
@@ -50,7 +52,10 @@ export default function CertCard({ cert, lang, onLearnMore }: CertCardProps) {
         </a>
 
         <button
-          onClick={() => onLearnMore(cert)}
+          onClick={(e) => {
+            e.stopPropagation()
+            onLearnMore(cert)
+          }}
           className="inline-flex items-center gap-1.5 ml-auto
             font-semibold text-sm text-[var(--color-muted)]
             transition-colors duration-200 cursor-pointer
