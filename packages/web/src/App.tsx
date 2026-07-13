@@ -1,6 +1,7 @@
 import Header from './components/layout/Header'
 import Hero from './features/hero/Hero'
 import About from './features/about/About'
+import Skills from './features/skills/Skills'
 function App() {
 
   return (
@@ -9,7 +10,7 @@ function App() {
     <main>
       <Hero />
       <About />
-      {/* Main content goes here */}
+      <Skills />
     </main>
     </>
   )
