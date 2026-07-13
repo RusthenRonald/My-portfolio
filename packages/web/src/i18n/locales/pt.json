@@ -6,5 +6,18 @@
         "projects": "Projetos",
         "certs": "Certificados",
         "resume": "Currículo"
-    }
+    },
+    "hero": {
+        "eyebrow":  "Portfolio - Sergipe, Brasil",
+        "role":     "Desenvolvedor de Software",
+        "lede":     "Desenvolvedor de Software com atuação em equipes internacionais e foco em interfaces modernas, performáticas e intuitivas.",
+        "cta1":     "Ver meu trabalho",
+        "cta2":     "Baixar currículo",
+        "photo":    "Adicione sua foto aqui",
+        "badge":    "Rusthen Ronald"
+    },
+    "stats": {
+        "years":    "Anos de experiência",
+        "technologies": "Tecnologias"
+        }
 }

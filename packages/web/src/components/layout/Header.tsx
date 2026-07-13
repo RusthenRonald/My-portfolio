@@ -72,7 +72,7 @@ export default function Header() {
             href="#top"
             className="font-display font-bold text-xl tracking-tight text-[var(--color-text)]"
           >
-            [Rusthen]<span className="text-[var(--color-accent)] md:hidden lg:inline">Ronald</span>
+            Rusthen<span className="text-[var(--color-accent)] md:hidden lg:inline">Ronald</span>
           </a>
 
           {/* ── Desktop nav ── */}
