@@ -2,7 +2,6 @@ import { type IconType } from 'react-icons'
 import { Braces, FolderTree, Layers, Webhook } from 'lucide-react'
 import {
   SiDocker,
-  SiExpress,
   SiFastapi,
   SiFigma,
   SiGit,
@@ -56,11 +55,9 @@ export const skillsData: SkillCategory[] = [
     key:   'back',
     tag:   'back-end',
     items: [
-      { name: 'Node.js',  icon: SiNodedotjs },
-      { name: 'Express',  icon: SiExpress },
-      { name: 'REST API', icon: Webhook },
       { name: 'Python',   icon: SiPython },
       { name: 'FastAPI',  icon: SiFastapi },
+      { name: 'REST API', icon: Webhook },
     ],
   },
   {

@@ -23,7 +23,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="mailto:[rusthenronald9@.com]"
+              href="mailto:rusthenronald9@.com"
               className="inline-flex items-center gap-3
                 text-[var(--color-text)] font-semibold text-sm
                 transition-colors duration-200
@@ -36,7 +36,7 @@ export default function Contact() {
               >
                 <Mail size={18} className="text-[var(--color-accent)]" />
               </span>
-              [rusthenronald9@gmail.com]
+              rusthenronald9@gmail.com
             </a>
           </div>
 

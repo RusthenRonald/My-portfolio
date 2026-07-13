@@ -4,7 +4,7 @@ export default function PhotoFrame() {
     const {t} = useTranslation();
 
     return (
-        <div className="flex" justify-center color="blue">
+        <div className="flex justify-center">
             <div className="relative w-[280px] h-[340px] md:w-[300px] md:h-[360px]">
                 <div
                 className="absolute inset-0 rounded-3xl"

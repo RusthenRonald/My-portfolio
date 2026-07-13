@@ -3,8 +3,7 @@ import { ArrowRight, Download } from 'lucide-react'
 import PhotoFrame from './PhotoFrame'
 
 const stats = [
-  { value: '2+',  key: 'stats.years'    },
-  { value: '20',  key: 'stats.technologies' },
+  { value: '1.5+',  key: 'stats.years'    },
 ]
 
 const resumeByLang: Record<string, string> = {
@@ -22,7 +21,6 @@ export default function Hero() {
       className="relative min-h-screen flex items-center pt-[74px] overflow-hidden"
     >
 
-      {/* ambient glow — signature element */}
       <div
         className="pointer-events-none absolute -top-10 right-[-120px] w-[520px] h-[520px] rounded-full"
         style={{
