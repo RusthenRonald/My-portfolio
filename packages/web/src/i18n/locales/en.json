@@ -6,5 +6,19 @@
     "projects": "Projects",
     "certs":    "Certificates",
     "resume":   "curriculum"
+  },
+    "hero": {
+      "eyebrow":  " Portfolio - Sergipe, Brazil",
+      "role":     "Software Developer",
+      "lede":     "Software Developer working with international teams, focused on building modern, high-performance, and intuitive user interfaces.",
+      "cta1":     "View my work",
+      "cta2":     "Download curriculum",
+      "photo":    "Add your photo here",
+      "badge":    "Rusthen Ronald"
+  },
+    "stats": {
+      "years":    "Years experience",
+      "technologies": "Technologies"
   }
+
 }
