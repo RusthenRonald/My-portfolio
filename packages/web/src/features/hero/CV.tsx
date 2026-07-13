@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 export default function CV() {
   const { t, i18n } = useTranslation()
-  const resumeHref = i18n.language.startsWith('pt') ? '/curriculo.pdf' : '/resume.pdf'
+  const resumeHref = i18n.language.startsWith('pt') ? '/curriculum.pdf' : '/curriculum_en.pdf'
 
   return (
     <section id="cv" className="py-24">

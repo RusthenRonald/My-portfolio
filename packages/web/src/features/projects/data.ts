@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     },
     image:    '/portfolio_image.png',
     stack:    ['React', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'Zod', 'Resend'],
-    link:     '#',
+    link:     'https://my-portfolio-web-omega-black.vercel.app/',
     repoLink: 'https://github.com/RusthenRonald/My-portfolio',
     tag:      { pt: 'Fullstack', en: 'Fullstack' },
     gradient: 'linear-gradient(135deg, #2a0f24, #FF3D9A)',

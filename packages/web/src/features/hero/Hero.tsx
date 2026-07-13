@@ -7,8 +7,8 @@ const stats = [
 ]
 
 const resumeByLang: Record<string, string> = {
-  en: '/resume.pdf',
-  pt: '/curriculo.pdf',
+  en: '/curriculum_en.pdf',
+  pt: '/curriculum.pdf',
 }
 
 export default function Hero() {
