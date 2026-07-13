@@ -6,6 +6,7 @@ import Experience from './features/experience/Experience'
 import Projects from './features/projects/Projects'
 import Certificates from './features/certificates/Certificates'
 import Footer from './components/layout/Footer'
+import CV from './features/hero/CV'
 function App() {
 
   return (
@@ -18,8 +19,9 @@ function App() {
       <Experience />
       <Projects />
       <Certificates />
-      <Footer />
+      <CV />
     </main>
+    <Footer />
     </>
   )
 }
