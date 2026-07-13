@@ -31,16 +31,24 @@ export default function ContactForm() {
   })
 
 
-  async function onSubmit(_data: FormData) {
-    setStatus('loading')
-    try {
-      await new Promise((res) => setTimeout(res, 1500))
-      setStatus('success')
-      reset()
+  async function onSubmit(data: FormData) {
+  setStatus('loading')
+  try {
+    const res = await fetch(
+      `${import.meta.env.VITE_API_URL}/api/contact`,
+      {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify(data),
+      }
+    )
+    if (!res.ok) throw new Error()
+        setStatus('success')
+        reset()
     } catch {
-      setStatus('error')
+        setStatus('error')
     }
-  }
+}
 
  
   const inputBase = [
