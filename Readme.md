@@ -124,6 +124,6 @@ npm run dev -w api
 
 ---
 
-## 📄 License
+## License
 
 MIT
